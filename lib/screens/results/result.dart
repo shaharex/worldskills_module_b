@@ -1,29 +1,24 @@
+import 'medalist.dart';
+
 class Result {
-  final List<GoldMedals> goldMedals;
+  final List<Medalist> goldMedals;
+  final List<Medalist> silverMedals;
+  final List<Medalist> bronzeMedals;
 
-  const Result({
+  Result({
     required this.goldMedals,
+    required this.silverMedals,
+    required this.bronzeMedals,
   });
 
-  static Result fromJson(json) => Result(
-        goldMedals: json["gold_medals"],
-      );
-}
+  factory Result.fromJson(Map<String, dynamic> json) {
+    List<Medalist> parseMedalists(List<dynamic> medalists) {
+      return medalists.map((data) => Medalist.fromJson(data)).toList();
+    }
 
-class GoldMedals {
-  final String skill;
-  final String portrait;
-  final String name;
-
-  const GoldMedals({
-    required this.skill,
-    required this.portrait,
-    required this.name,
-  });
-
-  static GoldMedals fromJson(json) => GoldMedals(
-        skill: json["skill"],
-        portrait: json["portrait"],
-        name: json["name"],
-      );
+    return Result(
+        goldMedals: parseMedalists(json['gold_medals']),
+        silverMedals: parseMedalists(json['silver_medals']),
+        bronzeMedals: parseMedalists(json['bronze_medals']));
+  }
 }

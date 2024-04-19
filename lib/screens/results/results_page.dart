@@ -33,7 +33,7 @@ class _ResultsPageState extends State<ResultsPage> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 30, right: 30, top: 10),
+      padding: const EdgeInsets.only(left: 30, right: 30, top: 10),
       child: ListView(
         children: [
           const SizedBox(
