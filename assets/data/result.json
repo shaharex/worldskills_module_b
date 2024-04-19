@@ -1,0 +1,94 @@
+{
+  "member": "Korea",
+  "rank": 1,
+  "gold": 7,
+  "silver": 6,
+  "bronze": 2,
+  "excellence": 26,
+  "gold_medals": [
+    {
+      "skill": "Plumbing and Heating",
+      "portrait": "avatar-1.png",
+      "name": "Theodore Shankles"
+    },
+    {
+      "skill": "Web Technologies",
+      "portrait": "avatar-2.png",
+      "name": "Kristina Wilson"
+    },
+    {
+      "skill": "Industrial Control",
+      "portrait": "avatar-3.png",
+      "name": "Paisley Ryan"
+    },
+    {
+      "skill": "Pâtisserie and Confectionery",
+      "portrait": "avatar-4.png",
+      "name": "Adeline Ford"
+    },
+    {
+      "skill": "Refrigeration and Air Conditioning",
+      "portrait": "avatar-5.png",
+      "name": "Posy Morrison"
+    },
+    {
+      "skill": "IT Network Systems Administration",
+      "portrait": "avatar-6.png",
+      "name": "Louella Brown"
+    },
+    {
+      "skill": "Construction Metal Work",
+      "portrait": "avatar-7.png",
+      "name": "Wilhelmina Lane"
+    }
+  ],
+  "silver_medals": [
+    {
+      "skill": "Mechanical Engineering CAD",
+      "portrait": "avatar-8.png",
+      "name": "Skylar Harris"
+    },
+    {
+      "skill": "CNC Milling",
+      "portrait": "avatar-1.png",
+      "name": "Petrina Johnson"
+    },
+    {
+      "skill": "Mobile Robotics",
+      "portrait": "avatar-2.png",
+      "name": "Gabriella Cantor"
+    },
+    {
+      "skill": "Mobile Robotics",
+      "portrait": "avatar-3.png",
+      "name": "Jimi Lennon"
+    },
+    {
+      "skill": "Joinery",
+      "portrait": "avatar-4.png",
+      "name": "Nicolette Gardner"
+    },
+    {
+      "skill": "Carpentry",
+      "portrait": "avatar-5.png",
+      "name": "Sue Reid"
+    },
+    {
+      "skill": "Prototype Modelling",
+      "portrait": "avatar-6.png",
+      "name": "Louise Bailey"
+    }
+  ],
+  "bronze_medals": [
+    {
+      "skill": "Welding",
+      "portrait": "avatar-7.png",
+      "name": "Nigella Morales"
+    },
+    {
+      "skill": "Beauty Therapy",
+      "portrait": "avatar-8.png",
+      "name": "Rex Ramirez"
+    }
+  ]
+}
