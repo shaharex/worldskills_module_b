@@ -2,7 +2,7 @@
 
 ## WorldSkills Module B finished;
 
-video: [worldskills_module_b](https://youtu.be/OstWLq6HCaA?si=u-WzAqN7SECpL1db)
+## video: [worldskills_module_b](https://youtu.be/OstWLq6HCaA?si=u-WzAqN7SECpL1db)
 
 ![news_1](https://github.com/shaharex/worldskills_module_b/assets/155885618/2bf8646a-dde4-4586-9c74-df663e592631)
 ![news_2](https://github.com/shaharex/worldskills_module_b/assets/155885618/a423af9c-ec37-4298-9858-30b4328d0b62)
